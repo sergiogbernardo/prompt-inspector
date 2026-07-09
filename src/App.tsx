@@ -91,9 +91,15 @@ export default function App() {
             </div>
             <a
               href="https://sabion.io/"
-              className="rounded-lg border border-emerald-500/20 px-3 py-2 font-mono text-xs uppercase tracking-wider text-emerald-200 transition hover:border-emerald-300/50 hover:bg-emerald-400/10"
+              aria-label="Hub de Projetos"
+              title="Hub de Projetos"
+              className="flex shrink-0 items-center transition hover:scale-105"
             >
-              Hub
+              <img
+                src={`${import.meta.env.BASE_URL}hub-icon.png`}
+                alt="Hub de Projetos"
+                className="h-8 w-8"
+              />
             </a>
           </div>
         </header>
